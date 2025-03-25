@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon.png">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Wizard-Man</title>
+  </head>
+  <body>
+    
+    <div>
+      <h1>Wizard-Man</h1>
+      <h3 id="score" class="score-bar">Score:0 / HP: 2</h3>
+      <canvas id="gameCanvas"></canvas>
+      <div id="start-training" class="training hiden">
+        <h4>Starting training</h4>
+        <p>1. Move on &#8656; &#8657; &#8659; &#8658;</p>
+        <p>2. The level is completed when all the coins are collected.</p>
+        <p>3. When you lose a life, the level restarts. When you've spent all your lives you lose.</p>
+        <p>4. The score is counted as soon as you lose (be sure to play on a secure https connection)</p>
+        <p>5. Good Luck! Have Fun! </p>
+      </div>
+    </div>
+    <div id="input-div" class="popup">
+      <div class="popup-div">
+         <form id="startgame-from" action="">
+            <label>Twitter Account</label>
+            <input class="twitter-input" id="tinput" type="text" placeholder="@Taprut-Wizzard-Fun777"/>
+            <label>BTC Wallet</label>
+            <input  class="twitter-input" id="winput" type="text" placeholder="BTC Wallet" />
+            <div id="startgame-btn" class="game-btn"></div>
+         </form>
+      </div>
+    </div>
+    <div id="restart-div" class="popup restart">
+      <div class="popup-div">
+         <form id="startgame-from" action="">
+            <h2 id="score-re" class="score-bar">Score:0</h2>
+            <a href="http://ladder.wizard-man.site/" class="ladder-button">Ladder</a>
+            <div id="restartgame-btn" class="game-btn"></div>
+         </form>
+      </div>
+    </div>
+    <script src="src/Game.js" type="module"></script>
+  </body>
+</html>

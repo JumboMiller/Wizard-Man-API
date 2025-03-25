@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+    background-image: url(./block.png);
+    /*background: linear-gradient(
+      0deg,
+      rgb(199, 104, 187) 0%,
+      rgb(17, 51, 161) 100%
+    );*/
+    color: #f7f7f7;
+}
+i{
+  width: 25px;
+  height: 25px;
+}
+p{
+  text-align: center;
+  width: 300px;
+  overflow: auto;
+  
+  display: block;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.wallet-label{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ladder-list{
+  width: 1280px;
+}
+.wallet-row {
+ /* box-shadow: rgba(149, 157, 165, 1) 0px 0px 7px;*/
+  background-color: rgba(149, 157, 165, 0.2);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+
+}
