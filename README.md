@@ -184,7 +184,7 @@ wizard-man-api/
 
 ## Deployment
 
-The live game is hosted at `https://wizard-man.site/` and the leaderboard at `https://ladder.wizard-man.site/`.
+The live game is hosted at `https://wizard-man.site/`, the leaderboard at `https://ladder.wizard-man.site/`, and the API at `https://wizard-man.space/`.
 
 For self-hosting:
 
